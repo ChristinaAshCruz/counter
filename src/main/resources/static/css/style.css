@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+  background-color: #EFF7F0;
+  margin: 50px;
+}
+.main_block {
+  text-align: center;
+}
+.card{
+	background-color: #EFF7F0;
+	border-color: #ff874e;
+}
+.card-body {
+  color: #000000;
+}
+h1 {
+  color: #8193FF;
+}
