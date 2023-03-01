@@ -12,7 +12,7 @@ pageEncoding="UTF-8"%>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Show Count</title>
+    <title>Counter + 2</title>
     <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <!-- change to match your file/naming structure -->
@@ -23,19 +23,14 @@ pageEncoding="UTF-8"%>
   <body>
     <div class="main_block">
       <h1 class="mb-4">Counter Assignment</h1>
-      <div class="card mb-4">
+      <div class="card">
         <div class="card-body">
-          <p>
-            You have visited <a href="/">http://your_server</a>
-            <c:out value="${currentCount}" /> times.
-          </p>
-          <a href="/" class="btn" role="button">Test another visit?</a>
-          <a href="/add2" class="btn" role="button">Let's visit twice!</a>
+          <h5 class="mb-3">Nice to see you again!</h5>
+          <a href="/showCount" class="btn" role="button"
+            >Go to showCount Page</a
+          >
         </div>
       </div>
-      <a href="/reset" class="btn" role="button" id="reset-button"
-        >Reset Counter</a
-      >
     </div>
   </body>
 </html>

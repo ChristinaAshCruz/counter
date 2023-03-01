@@ -1,9 +1,23 @@
 @charset "UTF-8";
+#reset-button {
+	background-color:#ff874e;
+	color:#EFF7F0;
+}
+
 
 body {
   background-color: #EFF7F0;
   margin: 50px;
 }
+
+h1 {
+  color: #8193FF;
+}
+
+a {
+	color: #8193FF;
+}
+
 .main_block {
   text-align: center;
 }
@@ -13,13 +27,6 @@ body {
 }
 .card-body {
   color: #000000;
-}
-h1 {
-  color: #8193FF;
-}
-
-a {
-	color: #8193FF;
 }
 
 .btn {
