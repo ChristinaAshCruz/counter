@@ -24,7 +24,12 @@ pageEncoding="UTF-8"%>
     <div class="main_block">
       <h1 class="mb-4">Counter Assignment</h1>
       <div class="card">
-        <div class="card-body">Welcome User!</div>
+        <div class="card-body">
+          <h5 class="mb-3">Welcome User!</h5>
+          <a href="/showCount" class="btn" role="button"
+            >Go to showCount Page</a
+          >
+        </div>
       </div>
     </div>
   </body>

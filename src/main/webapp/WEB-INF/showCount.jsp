@@ -25,7 +25,11 @@ pageEncoding="UTF-8"%>
       <h1 class="mb-4">Counter Assignment</h1>
       <div class="card">
         <div class="card-body">
-          The Current Count: <c:out value="${currentCount}" />
+          <p>
+            You have visited <a href="/">http://your_server</a>
+            <c:out value="${currentCount}" /> times.
+          </p>
+          <a href="/" class="btn" role="button">Test another visit?</a>
         </div>
       </div>
     </div>
