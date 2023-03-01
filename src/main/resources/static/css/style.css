@@ -17,3 +17,12 @@ body {
 h1 {
   color: #8193FF;
 }
+
+a {
+	color: #8193FF;
+}
+
+.btn {
+	background-color: #8193FF;
+	color: #EFF7F0;
+}
